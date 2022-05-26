@@ -60,3 +60,6 @@ p {
 .win a {
   color: blue;
 }
+.completed {
+  filter: brightness(.5) saturate(.5);
+}
