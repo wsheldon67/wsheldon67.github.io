@@ -63,3 +63,16 @@ p {
 .completed {
   filter: brightness(.5) saturate(.5);
 }
+
+@keyframes wiggle {
+  0% { transform: translateX(-.125em);}
+  20% { transform: translateX(.5em);}
+  40% { transform: translateX(-.5em);}
+  60% { transform: translateX(.5em);}
+  80% { transform: translateX(-.125em);}
+}
+.wrong {
+  display: inline-block;
+  animation: wiggle 0.25s;
+  color: rgba(255, 89, 89, 0.852);
+}
