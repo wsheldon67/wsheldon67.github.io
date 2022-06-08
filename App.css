@@ -60,7 +60,7 @@ p {
 .win a {
   color: blue;
 }
-.completed {
+button[disabled] {
   filter: brightness(.5) saturate(.5);
 }
 
